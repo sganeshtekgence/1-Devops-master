@@ -10,4 +10,5 @@ variable "aws_region" {
 variable "image_tag" {
   description = "Docker image tag pushed to ECR (provided by CI/CD)"
   type        = string
+  default     = "bootstrap"
 }
