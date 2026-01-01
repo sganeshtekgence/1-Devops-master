@@ -18,7 +18,7 @@ pipeline {
           $class: 'GitSCM',
           branches: [[name: '*/main']],
           userRemoteConfigs: [[
-            url: 'https://github.com/sganeshtekgence/cisco-image-service.git',
+            url: 'https://github.com/sganeshtekgence/1-Devops-master.git',
             credentialsId: 'github-https-creds'
           ]]
         ])
